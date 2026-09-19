@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+
+# Frontend tooling caches and local output
+.vite/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+coverage/
+
+# Local PostgreSQL data
+pgdata/
+postgres-data/
+
+# Operating system files
+.DS_Store
+Thumbs.db
